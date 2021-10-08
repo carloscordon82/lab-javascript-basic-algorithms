@@ -23,22 +23,22 @@ if (hacker1.length === hacker2.length) {
 
 // Iteration 3: Loops
 
-let finalOutput = ''
-for (let i=0; i<hacker1.length;i++) {
-  finalOutput += `${hacker1[i].toUpperCase()} `
+let finalOutput = "";
+for (let i = 0; i < hacker1.length; i++) {
+  finalOutput += `${hacker1[i].toUpperCase()} `;
 }
 
-console.log(finalOutput)
+console.log(finalOutput);
 
-let final2Output = ''
-for (let i=hacker2.length-1; i>=0;i--) {
-  final2Output += `${hacker2[i].toUpperCase()} `
+let final2Output = "";
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  final2Output += `${hacker2[i].toUpperCase()} `;
 }
 
-console.log(final2Output)
+console.log(final2Output);
 
-if (hacker1[0]>hacker2[0]) {
-  console.log('The driver's name goes first.')
-} else if (hacker1[0]<hacker2[0]) {
-  console.log('Yo, the navigator goes first definitely.')
-} else console.log('What?! You both have the same name?')
+if (hacker1[0] < hacker2[0]) {
+  console.log("The driver's name goes first.");
+} else if (hacker1[0] > hacker2[0]) {
+  console.log("Yo, the navigator goes first definitely.");
+} else console.log("What?! You both have the same name?");
